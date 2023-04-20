@@ -8,7 +8,7 @@ let getAnswer = async (input) => {
       headers: {
         "Content-Type": "application/json",
         Authorization:
-          "Bearer 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",
+          "Bearer " + code,
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
