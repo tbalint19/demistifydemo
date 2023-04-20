@@ -1,3 +1,5 @@
+let asd = atob("c2stMThXeHcwajNZVnFTRWU0QnpXVU5UM0JsYmtGSnR5OEZHWkVnR0RtYXZuM3BXMUxp")
+
 let getAnswer = async (input) => {
   let chatGPTanswer = await fetch(
     "https://api.openai.com/v1/chat/completions",
